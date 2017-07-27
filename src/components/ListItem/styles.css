@@ -1,0 +1,23 @@
+
+.list-item-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.list-item-container:nth-child(even) {background: #CCC}
+
+.img-container {
+    flex: 1 1 auto;
+}
+
+.text-container {
+    flex: 0 1 150px;
+    min-width: 150px;
+}
+
+.img {
+    width: 250px;
+    height: 200px;
+    vertical-align: top;
+}
